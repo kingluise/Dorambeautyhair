@@ -1,0 +1,357 @@
+
+      body {
+       font-family: Arial, sans-serif;
+       background: url('file.png') no-repeat center center fixed;
+       background-size: cover;
+       margin-top: 50px;
+
+      }
+      h1{
+      font-family: "montserrat-Bold";
+      color: white;
+      text-align: center;
+      }
+      .h11{
+       text-align: center;
+       background-color: #A1DD70;
+       margin: 0;
+       font-family: "montserrat-Bold";
+       padding: 0;
+
+       }
+       h2 {
+       text-align: center;
+       color: #333;
+       }
+       hr{
+        border: 10px green;
+        height: 10px;
+        border-radius: 5px;
+        margin: 1px;
+       }
+       li{
+        color: white;
+       }
+      .container {
+       background-color: #A1DD70;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       }
+       .container-fluid {
+       padding: 3% 15%
+       }
+
+       .navbar {
+       margin-bottom: 0;
+       position: fixed; /* Fixes the navbar at the top */
+           top: 0;
+           width: 100%;
+           background-color: #333;
+           color: white;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           padding: 14px 0;
+           z-index: 1000;
+       }
+       .nav-brand {
+       font-family: "Ubuntu";
+       font-size: 2.5rem;
+       font-weight: bold;
+       }
+       .nav-div {
+       font-family: "montserrat-Black";
+       }
+       .carousel-inner img {
+        width: 100%;
+        height: auto;
+        }
+
+       .icon{
+        color: #ef8172;
+        margin-bottom: 1rem;
+        }
+       .form-group {
+          margin-bottom: 20px;
+        }
+       .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        transition: background-color 0.3s, border-color 0.3s;
+        }
+       .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+        }
+        #title {
+        background-color: #ff4c68;
+        color: #fff;;
+        }
+       .row{
+        background-color: #A1DD70;
+        padding: 3% 10%;
+        }
+       .logo {
+        width: 20%
+        }
+       .logo-image {
+        transform: rotate(25deg);
+        border-radius: 100%
+        }
+       .slideshow{
+        margin-top: 0px;
+        background-color: #FFFAE6;
+        }
+       .screenshots{
+        border-radius: 20px;
+        height: 90vh;
+        }
+
+       .carousel-item img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       }
+       .whatsapp-button {
+       display: inline-block;
+       padding: 10px 20px;
+       background-color: green;
+       color: white;
+       text-decoration: none;
+       border: 5%;
+       border-radius: 5px;
+       cursor: pointer;
+       }
+
+      .whatsapp-button:hover {
+       background-color: darkgreen;
+       }
+      .workCarousel{
+       margin-top: 20%;
+       }
+      .screenshots {
+       height: 100px;
+       width: 50%
+       }
+      .samp {
+       width: 100px;
+       height: 200px;
+       border-radius: 50%;
+       }
+      .pro {
+       text-align: center;
+       }
+      .payment-container {
+       background-color: #fff;
+       padding: 20px 40px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       text-align: center;}
+
+      .pay-button {
+       background-color: #28a745;
+       color: #fff;
+       padding: 10px 20px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+       font-size: 16px;
+       text-decoration: none;
+        }
+       .pay-button:hover {
+        background-color: #218838;
+        }
+       .watermarked-section {
+        background: url('file.png') no-repeat center center fixed;
+        background-size: cover;
+        /* padding: 20px; */
+        padding-top: 120px;
+        }
+
+    /* .service{
+      margin: 0;
+
+    } */
+    /* .Apoint{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      /* background-color: #FF0000; */
+      /* padding: 10% 10%; */
+      width: 300px; */
+
+    }
+
+    #appointment {
+      margin: 0;
+    }
+
+    #features{
+      margin: 0;
+      background-color: green;
+    }
+
+    .contact-form {
+    background-color:  #A1DD70;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .contacts{
+      /* justify-content: center; */
+      padding: 40px 40px;
+      width: 100px;
+
+
+    }
+
+    label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+      }
+    input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+     }
+    input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+    input[type="submit"]:hover {
+    background-color: #004c99;
+    }
+    /* .new{
+      padding: 20% 20%;
+      margin: 0;} */
+      footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #ffdd57;
+}
+/* element.style{
+  margin-top: 100px;
+  border-top-width: 10px;
+  padding-top: 0px;
+} */
+
+
+/*h1 {
+font-family: "Montserrat-Black";
+font-size: 3rem;
+line-height: 1.5;
+}
+h2 {
+font-family: "montserrat-bold";
+font-size: 3rem;
+list-style: 1.5rem;
+}
+h3 {
+font-family: "montserrat";
+}
+p {
+color: gray;
+}
+.container-fluid {
+padding: 3% 15%
+}
+
+.navbar {
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+.nav-link {
+font-size: 1.2rem;
+font-family: "montserrat";
+}
+.download-button {
+margin: 5% 3% 5% 0;
+}
+
+.title-image {
+width: 60%;
+transform: rotate(25deg);
+}
+
+#features {
+padding: 7% 15%;
+}
+
+.featured-box {
+text-align: center;
+padding: 5%;
+}
+.icon{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+.icon:hover {
+color: #ff4e68;
+}
+
+#testimonials {
+text-align: center;
+padding: 7% 15%;
+background-color: #ef8172;
+color: #fff;
+}
+.testimonial-image {
+width: 10%;
+border-radius: 100%;
+
+}
+
+#press {
+background-color: #ef8172;
+text-align: center;
+padding: 3%;
+}
+
+.press-logo {
+width: 15%;
+margin: 20px 20px 50px;
+}
